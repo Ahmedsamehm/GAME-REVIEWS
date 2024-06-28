@@ -1,0 +1,43 @@
+body{
+  font-family: "Comfortaa", cursive;
+  background-color:#272b30;
+  color:#fff ;
+}
+.navsection{
+  height: 150vh;
+}
+.navbar{
+  background-color: #455791e3;
+
+}
+.nav-link:focus, .nav-link:hover {
+  color: #09c !important;
+}
+.nav-link{
+  transition: all 0.5s;
+}
+.nav-link {
+  color: white !important;
+}
+.logo{
+  width: 40px;
+}
+.navsection .img{
+  width: 100%;
+}
+.card-holder{
+  filter: grayscale(100);
+  transition: all 0.5s  ;
+}
+.card-holder:hover{
+  transform: scale(1.05);
+  filter: grayscale(0);
+}
+.read-more {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Adjust the number of lines as needed */
+  -webkit-box-orient: vertical; 
+}
